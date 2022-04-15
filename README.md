@@ -32,17 +32,23 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-[`theme-color` meta tags](https://css-tricks.com/safari-15-new-ui-theme-colors-and-a-css-tricks-cameo/)
+- [`theme-color` meta tags](https://css-tricks.com/safari-15-new-ui-theme-colors-and-a-css-tricks-cameo/)
 
-```html
-<meta name="theme-color" 
-      content="#ecd96f" 
-      media="(prefers-color-scheme: light)">
-<meta name="theme-color" 
-      content="#0b3e05" 
-      media="(prefers-color-scheme: dark)">
-```
+  ```html
+  <meta name="theme-color" 
+        content="#ecd96f" 
+        media="(prefers-color-scheme: light)">
+  <meta name="theme-color" 
+        content="#0b3e05" 
+        media="(prefers-color-scheme: dark)">
+  ```
+- Accessibility
+  - Document should have one main landmark
+  - Page should contain a level-one heading
+  - All page content should be contained by landmarks
 
+- HTML
+  - Bad value 100% for attribute width on element img: Expected a digit but saw % instead. Ref to fix: https://rocketvalidator.com/html-validation/bad-value-x-for-attribute-width-on-element-img-expected-a-digit-but-saw-instead
 ## Author
 
 - Website - [thinh.xyz](https://thinh.xyz)
